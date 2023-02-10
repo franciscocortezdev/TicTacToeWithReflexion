@@ -31,15 +31,15 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnTic9 = new System.Windows.Forms.Button();
+            this.btnTic8 = new System.Windows.Forms.Button();
+            this.btnTic6 = new System.Windows.Forms.Button();
+            this.btnTic3 = new System.Windows.Forms.Button();
+            this.btnTic7 = new System.Windows.Forms.Button();
+            this.btnTic5 = new System.Windows.Forms.Button();
+            this.btnTic4 = new System.Windows.Forms.Button();
+            this.btnTic2 = new System.Windows.Forms.Button();
+            this.btnTic1 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.btnNewGame = new System.Windows.Forms.Button();
@@ -82,109 +82,118 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.button9);
-            this.panel3.Controls.Add(this.button8);
-            this.panel3.Controls.Add(this.button7);
-            this.panel3.Controls.Add(this.button6);
-            this.panel3.Controls.Add(this.button5);
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.btnTic9);
+            this.panel3.Controls.Add(this.btnTic8);
+            this.panel3.Controls.Add(this.btnTic6);
+            this.panel3.Controls.Add(this.btnTic3);
+            this.panel3.Controls.Add(this.btnTic7);
+            this.panel3.Controls.Add(this.btnTic5);
+            this.panel3.Controls.Add(this.btnTic4);
+            this.panel3.Controls.Add(this.btnTic2);
+            this.panel3.Controls.Add(this.btnTic1);
             this.panel3.Location = new System.Drawing.Point(13, 19);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(662, 535);
             this.panel3.TabIndex = 0;
             // 
-            // button9
+            // btnTic9
             // 
-            this.button9.BackColor = System.Drawing.Color.White;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button9.Location = new System.Drawing.Point(436, 349);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(200, 158);
-            this.button9.TabIndex = 8;
-            this.button9.UseVisualStyleBackColor = false;
+            this.btnTic9.BackColor = System.Drawing.Color.White;
+            this.btnTic9.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTic9.Location = new System.Drawing.Point(436, 349);
+            this.btnTic9.Name = "btnTic9";
+            this.btnTic9.Size = new System.Drawing.Size(200, 158);
+            this.btnTic9.TabIndex = 8;
+            this.btnTic9.UseVisualStyleBackColor = false;
+            this.btnTic9.Click += new System.EventHandler(this.btnTic1_Click);
             // 
-            // button8
+            // btnTic8
             // 
-            this.button8.BackColor = System.Drawing.Color.White;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(230, 349);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(200, 158);
-            this.button8.TabIndex = 7;
-            this.button8.UseVisualStyleBackColor = false;
+            this.btnTic8.BackColor = System.Drawing.Color.White;
+            this.btnTic8.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTic8.Location = new System.Drawing.Point(230, 349);
+            this.btnTic8.Name = "btnTic8";
+            this.btnTic8.Size = new System.Drawing.Size(200, 158);
+            this.btnTic8.TabIndex = 7;
+            this.btnTic8.UseVisualStyleBackColor = false;
+            this.btnTic8.Click += new System.EventHandler(this.btnTic1_Click);
             // 
-            // button7
+            // btnTic6
             // 
-            this.button7.BackColor = System.Drawing.Color.White;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(436, 185);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(200, 158);
-            this.button7.TabIndex = 6;
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnTic6.BackColor = System.Drawing.Color.White;
+            this.btnTic6.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTic6.Location = new System.Drawing.Point(436, 185);
+            this.btnTic6.Name = "btnTic6";
+            this.btnTic6.Size = new System.Drawing.Size(200, 158);
+            this.btnTic6.TabIndex = 6;
+            this.btnTic6.UseVisualStyleBackColor = false;
+            this.btnTic6.Click += new System.EventHandler(this.btnTic1_Click);
             // 
-            // button6
+            // btnTic3
             // 
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(436, 21);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(200, 158);
-            this.button6.TabIndex = 5;
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnTic3.BackColor = System.Drawing.Color.White;
+            this.btnTic3.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTic3.Location = new System.Drawing.Point(436, 21);
+            this.btnTic3.Name = "btnTic3";
+            this.btnTic3.Size = new System.Drawing.Size(200, 158);
+            this.btnTic3.TabIndex = 5;
+            this.btnTic3.UseVisualStyleBackColor = false;
+            this.btnTic3.Click += new System.EventHandler(this.btnTic1_Click);
             // 
-            // button5
+            // btnTic7
             // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(24, 349);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(200, 158);
-            this.button5.TabIndex = 4;
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnTic7.BackColor = System.Drawing.Color.White;
+            this.btnTic7.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTic7.Location = new System.Drawing.Point(24, 349);
+            this.btnTic7.Name = "btnTic7";
+            this.btnTic7.Size = new System.Drawing.Size(200, 158);
+            this.btnTic7.TabIndex = 4;
+            this.btnTic7.UseVisualStyleBackColor = false;
+            this.btnTic7.Click += new System.EventHandler(this.btnTic1_Click);
             // 
-            // button4
+            // btnTic5
             // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(230, 185);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 158);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnTic5.BackColor = System.Drawing.Color.White;
+            this.btnTic5.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTic5.Location = new System.Drawing.Point(230, 185);
+            this.btnTic5.Name = "btnTic5";
+            this.btnTic5.Size = new System.Drawing.Size(200, 158);
+            this.btnTic5.TabIndex = 3;
+            this.btnTic5.UseVisualStyleBackColor = false;
+            this.btnTic5.Click += new System.EventHandler(this.btnTic1_Click);
             // 
-            // button3
+            // btnTic4
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(24, 185);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 158);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnTic4.BackColor = System.Drawing.Color.White;
+            this.btnTic4.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTic4.Location = new System.Drawing.Point(24, 185);
+            this.btnTic4.Name = "btnTic4";
+            this.btnTic4.Size = new System.Drawing.Size(200, 158);
+            this.btnTic4.TabIndex = 2;
+            this.btnTic4.UseVisualStyleBackColor = false;
+            this.btnTic4.Click += new System.EventHandler(this.btnTic1_Click);
             // 
-            // button2
+            // btnTic2
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(230, 21);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 158);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnTic2.BackColor = System.Drawing.Color.White;
+            this.btnTic2.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTic2.Location = new System.Drawing.Point(230, 21);
+            this.btnTic2.Name = "btnTic2";
+            this.btnTic2.Size = new System.Drawing.Size(200, 158);
+            this.btnTic2.TabIndex = 1;
+            this.btnTic2.UseVisualStyleBackColor = false;
+            this.btnTic2.Click += new System.EventHandler(this.btnTic1_Click);
             // 
-            // button1
+            // btnTic1
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(24, 21);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 158);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnTic1.BackColor = System.Drawing.Color.White;
+            this.btnTic1.Font = new System.Drawing.Font("Microsoft Sans Serif", 86F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnTic1.Location = new System.Drawing.Point(24, 21);
+            this.btnTic1.Name = "btnTic1";
+            this.btnTic1.Size = new System.Drawing.Size(200, 158);
+            this.btnTic1.TabIndex = 0;
+            this.btnTic1.UseVisualStyleBackColor = false;
+            this.btnTic1.Click += new System.EventHandler(this.btnTic1_Click);
             // 
             // panel4
             // 
@@ -217,6 +226,7 @@
             this.btnNewGame.TabIndex = 11;
             this.btnNewGame.Text = "New Game";
             this.btnNewGame.UseVisualStyleBackColor = false;
+            this.btnNewGame.Click += new System.EventHandler(this.btnNewGame_Click);
             // 
             // btnExitGame
             // 
@@ -228,6 +238,7 @@
             this.btnExitGame.TabIndex = 10;
             this.btnExitGame.Text = "Exit";
             this.btnExitGame.UseVisualStyleBackColor = false;
+            this.btnExitGame.Click += new System.EventHandler(this.btnExitGame_Click);
             // 
             // btnResetGame
             // 
@@ -239,6 +250,7 @@
             this.btnResetGame.TabIndex = 9;
             this.btnResetGame.Text = "Reset";
             this.btnResetGame.UseVisualStyleBackColor = false;
+            this.btnResetGame.Click += new System.EventHandler(this.btnResetGame_Click);
             // 
             // panel5
             // 
@@ -333,15 +345,15 @@
         private Panel panel1;
         private Label label1;
         private Panel panel3;
-        private Button button9;
-        private Button button8;
-        private Button button7;
-        private Button button6;
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private Button btnTic9;
+        private Button btnTic8;
+        private Button btnTic6;
+        private Button btnTic3;
+        private Button btnTic7;
+        private Button btnTic5;
+        private Button btnTic4;
+        private Button btnTic2;
+        private Button btnTic1;
         private Panel panel4;
         private Panel panel6;
         private Button btnNewGame;
